@@ -28,7 +28,7 @@
 body {
     margin: 0;
     background-color: black;
-    background: linear-gradient(rgb(20, 20, 40), rgb(30, 30, 60), rgb(10, 10, 10));
+    background: /*linear-gradient(rgb(20, 20, 40), rgb(30, 30, 60), rgb(10, 10, 10))*/;
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
