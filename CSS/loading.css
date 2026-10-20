@@ -3,7 +3,7 @@
   top: 0;
   left: 0;
   width: 100vw;
-  height: 100vh;
+  height: 100dvh;
   background: linear-gradient(rgb(10, 10, 20), rgb(20, 20, 60), rgb(10, 10, 10));
   display: flex;
   justify-content: flex-end;
