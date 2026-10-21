@@ -72,6 +72,11 @@ body {
     animation: pop 2s ease;
 }
 
+
+.splash-hidden {
+    animation: pop 2s ease;
+}
+
 .bigby {
     position: absolute;
     z-index: -1;
