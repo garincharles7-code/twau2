@@ -31,8 +31,11 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
     margin: 25px 25px 0px;
     
-    animation: pop 1.5s ease;
     z-index: -1;
+}
+
+.Container-animate {
+    animation: pop 1.5s ease;
 }
 
 .gallery-item {
