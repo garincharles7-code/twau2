@@ -1,11 +1,16 @@
 window.addEventListener('load', function() {
   const loader = document.querySelector('.loading-screen');
+  
   const splash = document.querySelector('.splash');
   const bigby = document.querySelector('.bigby');
+  const splashChar = document.querySelector('.splashChar');
+  const introBottom = document.querySelector('.intro-bottom');
   
   loader.classList.add('loader-hidden');
-  splash.classList.add('splash-animate');
-  bigby.classList.add('bigby-animate');
+  if (splash) splash.classList.add('splash-animate');
+  if (bigby) bigby.classList.add('bigby-animate');
+  if (splashChar) splashChar.classList.add('splashChar-animate');
+  if (introBottom) introBottom.classList.add('introBottom-animate');
 
   loader.addEventListener('transitionend', function() {
     loader.remove();
