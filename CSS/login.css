@@ -32,7 +32,7 @@ body {
 }
 
 .container input {
-    width: 100%;
+    width: calc(100% - 20px);
     height: 30px;
     justify-content: left;
     font-size: 18px;
