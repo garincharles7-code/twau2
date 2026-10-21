@@ -29,7 +29,7 @@ body {
 }
 
 .splashChar-animate {
-    animation: pop 2s ease;
+    animation: pop 2s ease forwards;
 }
 
 .intro-bottom {
