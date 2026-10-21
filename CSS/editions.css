@@ -22,7 +22,7 @@ body {
     font-family: sans-serif;
     font-size: 25px;
 }
-.container {
+.Container {
     height: auto;
     margin: 100px 25px 0px;
     width: calc(100% - 50);
@@ -30,7 +30,9 @@ body {
     grid-template-columns: 1fr 1fr;
     column-gap: 20px;
     justify-content: center;
-    
+}
+
+.Container-animate {
     animation: pop 1.5s ease;
 }
 
@@ -92,7 +94,7 @@ body {
 }
 
 @media (min-width: 1024px) {
-    .container {
+    .Container {
         margin: 80px 200px 0px;
         width: calc(100% - 400);
         column-gap: 40px;
