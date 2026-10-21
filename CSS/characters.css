@@ -29,10 +29,10 @@ body {
 }
 
 .splashChar-animate {
-    animation: pop 2s ease;
+    animation: pop 2s ease forwards;
 }
 
-.intro-bottom {
+.intro p {
     color: white;
     font-family: sans-serif;
     font-size: clamp(15px, 5vmin, 25px);
@@ -42,7 +42,7 @@ body {
 }
 
 .introBottom-animate {
-    animation: pop 3s ease;
+    animation: pop 3s ease forwards;
 }
 
 .intro h1 {
