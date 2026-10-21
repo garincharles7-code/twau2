@@ -54,7 +54,6 @@ body {
     width: 90vw;
     object-fit: contain;
     object-position: center;
-    animation: pop 2s ease;
 }
 
 .splash-hidden {
