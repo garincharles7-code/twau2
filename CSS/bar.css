@@ -104,7 +104,7 @@
     display: none;
     position: absolute;
 
-    left: 15%;  
+    left: 12dvw;  
     top: 40%;
     
     transform: translateY(-50%);
@@ -114,7 +114,7 @@
 }
 
 .splashOverlay img {
-    height: 500px;
+    width: 40dvw;
 }
 
 @media (min-width: 768px) {
