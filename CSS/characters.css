@@ -26,11 +26,10 @@ body {
     height: 50%;
     object-fit: contain;
     object-position: center;
-    animation: pop 2s ease forwards;
 }
 
 .splashChar-animate {
-    
+    animation: pop 2s ease;
 }
 
 .intro-bottom {
@@ -43,7 +42,7 @@ body {
 }
 
 .introBottom-animate {
-    animation: pop 3s ease forwards;
+    animation: pop 3s ease;
 }
 
 .intro h1 {
