@@ -41,21 +41,43 @@
 }
 
 .menu {
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
     position: fixed;
     top: 0;
     right: 0;
-    width: 60vw;
-    height: 100vh;
+    width: 60dvw;
+    height: 100dvh;
     padding: 100px 30px 30px;
-    gap: 30px;
     background-image: linear-gradient(rgb(20, 20, 40, 0.8), rgb(0, 0, 20, 1));
     backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px);
     z-index: 9997;
     transform: translateX(100%) translateZ(0);
     transition: transform 0.5s ease;
+    
+    overflow: hidden;
+        overscroll-behavior: contain;
+    box-sizing: border-box;  
+}
+
+
+.menuContents {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    position: absolute;
+    top: 90px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-width: none;
+
+    padding: 10px 30px 30px;
+    box-sizing: border-box;
+    
 }
 
 .menu a {
@@ -115,6 +137,8 @@
 
 .splashOverlay img {
     width: 40dvw;
+    height: 40dvh;
+    object-fit: contain;
 }
 
 @media (min-width: 768px) {
