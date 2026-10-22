@@ -70,28 +70,28 @@ body {
     text-align: center;
     font-family: sans-serif;
     text-shadow: 0px 0px 40px rgb(180, 150, 255);
-    margin-bottom: 40px;
-    font-size: clamp(10px, 4vh, 30px);
+    margin-bottom: clamp(10px, 5vh, 40px);
+    font-size: clamp(0px, 3vh, 30px);
 }
 
 .chevron {
     color: white;
     text-align: center;
     transform: rotate(90deg);
-    font-size: clamp(20px, 4vh, 30px);
+    font-size: clamp(0px, 3vh, 30px);
 }
 
 h3 {
   color: rgb(190, 150, 200);
   font-family: sans-serif;
   text-align: center;
-  margin-bottom: 20px;
-  font-size: clamp(10px, 4vh, 22px)
+  margin-bottom: clamp(10px, 4vh, 20px);
+  font-size: clamp(0px, 3vh, 22px)
 }
 
 .editions {
-    padding: 15px 50px 15px;
-    font-size: clamp(10px, 2vh, 20px);
+    padding: clamp(5px, 3vmin, 15px) clamp(20px, 3vmin, 50px);
+    font-size: clamp(5px, 2vh, 20px);
     border-radius: 20px;
     font-weight: 1000;
     text-decoration: none;
