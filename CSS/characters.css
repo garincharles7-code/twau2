@@ -108,7 +108,7 @@ body {
     color: white;
     font-family: Sans-Serif;
     font-size: clamp(30px, 5vmin, 60px);
-    margin-top: 70%;
+    margin-top: 30vh;
 }
 
 .Con1stphar h2, .Con2ndphar h2, .Con3rdphar h2, .Con4thphar h2, .Con5thphar h2, .Con6thphar h2, .Con7thphar h2 {
