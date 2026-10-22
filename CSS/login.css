@@ -10,10 +10,10 @@ body {
 .Mcontainer {
     background-image: linear-gradient(rgba(0,0,0,1), rgba(30,30,60,0.9), rgba(40,40,100,0.7));
     height: 65dvh;
-    width: 100%;
+    width: calc(100% - 40px);
     
     border-radius: 20px;
-    padding: 20px 0px 40px;
+    padding: 20px 20px 40px;
     
     backdrop-filter: blur(40px);
     display: flex;
@@ -23,11 +23,11 @@ body {
     text-align: center;
     
     border: 5px solid rgb(40, 20, 60)
-
 }
 
 .Mcontainer img {
     height: 60%;
+    width: 100%;
     object-fit: contain;
 }
 
