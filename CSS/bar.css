@@ -137,7 +137,7 @@
 
 .splashOverlay img {
     width: 40dvw;
-    height: 40dvh;
+    height: 80dvh;
     object-fit: contain;
 }
 
