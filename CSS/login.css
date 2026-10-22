@@ -11,10 +11,10 @@ body {
     background-image: linear-gradient(rgba(0,0,0,1), rgba(30,30,60,0.9), rgba(40,40,100,0.7));
     height: auto;
 
-    width: auto;
+    width: calc(95% - 80px);
     
     border-radius: 20px;
-    padding: 20px 0px;
+    padding: 20px 40px;
     
     backdrop-filter: blur(40px);
     display: flex;
@@ -27,13 +27,12 @@ body {
 }
 
 .Mcontainer img {
-    height: 60%;
-    width: 60%;
+    width: 300px;
     object-fit: contain;
 }
 
 .textBox {
-    width: calc(100% - 20px);
+    width: 100%;
     height: 30px;
     justify-content: left;
     font-size: 16px;
@@ -82,7 +81,7 @@ body {
     font-family: sans-serif;
     align-items: center;
     color: lightgray;
-    width: 100%;
+    width: calc(100% + 20px);
     margin-top: 20px;
     font-size: clamp(12px, 2vmin, 15px);
 }
@@ -172,10 +171,6 @@ body {
     }
     .container input {
         width: 100%;
-    }
-    
-    .infoRow {
-        width: calc(100% + 20px);
     }
 }
 
