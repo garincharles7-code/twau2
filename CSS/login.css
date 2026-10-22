@@ -47,20 +47,12 @@ body {
     outline: 3px solid rgb(230, 100, 180);
 }
 
-.container h1 {
-    font-family: sans-serif;
-    font-size: 50px;
-    color: lightgray;
-    font-weight: 800;
-    
-    text-shadow: 0px 0px 10px rgba(100,100,230, 1);
-}
-
 .container h3 {
     font-family: sans-serif;
     color: lightgray;
     text-shadow: 0px 0px 5px rgba(100,100,230);
     margin-bottom: 5px;
+    font-size: clamp(10px, 3vmin, 18px);
     margin-left: 0;
     
     text-align: left;
