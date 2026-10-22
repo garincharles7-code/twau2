@@ -32,7 +32,7 @@ body {
 }
 
 .textBox {
-    width: 100%;
+    width: calc(100% - 20px);
     height: 30px;
     justify-content: left;
     font-size: 16px;
@@ -81,7 +81,7 @@ body {
     font-family: sans-serif;
     align-items: center;
     color: lightgray;
-    width: calc(100% + 20px);
+    width: 100%;
     margin-top: 20px;
     font-size: clamp(12px, 2vmin, 15px);
 }
@@ -130,7 +130,7 @@ body {
     position: fixed;
     object-fit: cover;
     width: 100%;
-    height: 100%;
+    height: 100dvh;
     z-index: -2;
 }
 
