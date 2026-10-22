@@ -126,7 +126,7 @@
     display: none;
     position: absolute;
 
-    left: 12dvw;  
+    left: 8dvw;  
     top: 40%;
     
     transform: translateY(-50%);
@@ -143,7 +143,7 @@
 
 @media (min-width: 768px) {
     .menu {
-        width: 30vw;
+        width: 40dvw;
     }
     .splashOverlay {
         display: flex;
