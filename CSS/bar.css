@@ -81,7 +81,7 @@
 }
 
 .menu a {
-    font-size: clamp(25px, 5vmin, 35px);
+    font-size: clamp(25px, 5vmin, 45px);
     text-decoration: none;
     color: rgb(200, 200, 255);
     font-weight: 800;
