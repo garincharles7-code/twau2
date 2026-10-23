@@ -1,4 +1,7 @@
 window.addEventListener('load', function() {
+  document.documentElement.classList.add('loading-active');
+  document.body.classList.add('loading-active');
+  
   const loader = document.querySelector('.loading-screen');
   
   const splash = document.querySelector('.splash');
@@ -13,8 +16,6 @@ window.addEventListener('load', function() {
   if (splashChar) splashChar.classList.add('splashChar-animate');
   if (introBottom) introBottom.classList.add('introBottom-animate');
   if (container) container.classList.add('Container-animate');
-  document.documentElement.classList.add("loading-active");
-  document.body.classList.add("loading-active");
 
   loader.addEventListener('transitionend', function() {
     loader.remove();
