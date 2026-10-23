@@ -1,5 +1,4 @@
 document.documentElement.classList.add('loading-active');
-document.body.classList.add('loading-active');
 
 window.addEventListener('load', function() {
   const loader = document.querySelector('.loading-screen');
@@ -20,6 +19,5 @@ window.addEventListener('load', function() {
   loader.addEventListener('transitionend', function() {
     loader.remove();
     document.documentElement.classList.remove("loading-active");
-    document.body.classList.remove("loading-active");
   });
 });
