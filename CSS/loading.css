@@ -13,8 +13,10 @@
   transition: opacity 0.3s ease;
 }
 
-html.loading-active {
-    overflow: hidden;
+html.loading-active,
+body.loading-active {
+    overflow: hidden !important;
+    height: 100%;
     overscroll-behavior: none;
 }
 
