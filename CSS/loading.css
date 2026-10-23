@@ -14,7 +14,7 @@
 }
 
 html.loading-active {
-    overflow: hidden !important;
+    overflow: hidden;
     overscroll-behavior: none;
 }
 
