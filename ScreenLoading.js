@@ -14,9 +14,11 @@ window.addEventListener('load', function() {
   if (introBottom) introBottom.classList.add('introBottom-animate');
   if (container) container.classList.add('Container-animate');
   document.documentElement.classList.add("loading-active");
+  document.body.classList.add("loading-active");
 
   loader.addEventListener('transitionend', function() {
     loader.remove();
     document.documentElement.classList.remove("loading-active");
+    document.body.classList.remove("loading-active");
   });
 });
