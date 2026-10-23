@@ -1,7 +1,7 @@
+document.documentElement.classList.add('loading-active');
+document.body.classList.add('loading-active');
+
 window.addEventListener('load', function() {
-  document.documentElement.classList.add('loading-active');
-  document.body.classList.add('loading-active');
-  
   const loader = document.querySelector('.loading-screen');
   
   const splash = document.querySelector('.splash');
