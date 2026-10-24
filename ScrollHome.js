@@ -8,8 +8,8 @@ window.addEventListener("scroll", () => {
     const scroll = window.scrollY;
     
     const trailerBottom = trailer.offsetTop + trailer.offsetHeight - 800;
-    const containerTop = container.offsetTop - 1400;
-    const secondphar = containerTop - 200;
+    const containerTop = second.offsetTop - 800;
+    const secondphar = containerTop - 100;
     
 
     first.style.opacity = Math.max(0, 1 - scroll / 1200);
